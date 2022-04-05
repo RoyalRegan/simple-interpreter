@@ -1,0 +1,18 @@
+declare
+  x := 10;
+  y := -2;
+  c := 1.15e+10;
+begin
+  while x ->= 2 do
+    x--;
+
+    while y < 0 do
+      y++;
+      print c;
+    done;
+
+    print x;
+  done;
+
+  print y;
+end;
